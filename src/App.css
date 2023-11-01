@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #fff3e0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* start future car part */
+.head {
+  display: flex;
+  width: 500px;
+  background-color: #e7e7e7;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+.head span {
+  font-weight: 600;
+}
+button {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.rest-btn {
+  width: 77px;
+  height: 25px;
+  background-color: #474634;
+  text-align: center;
+  color: #e6e9ee;
+  align-items: center;
+}
+.apply-btn {
+  width: fit-content;
+  height: 25px;
+  background-color: #474634;
+  text-align: center;
+  color: #e6e9ee;
+}
+
+.cars-holder {
+  width: 500px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0px 15px 10px 15px;
+}
+
+.cars-holder .checkbox-holder {
+  width: 250px;
+  height: 31px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 4px;
+}
+.cars-holder span {
+  padding: 4px;
+}
+input[type="checkbox"] {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
+/* Checked checkbox style */
+input[type="checkbox"]:checked {
+  accent-color: white;
+}
